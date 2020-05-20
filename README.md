@@ -73,7 +73,7 @@ Function will take two F2Polynomial objects as its parameters. Calculates the di
 
 ```
 polyAdd(p1, p2):
-return p1 * p2
+return p1 / p2
 ```
 
 ## State
