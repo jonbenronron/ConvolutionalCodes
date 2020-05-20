@@ -2,18 +2,18 @@
 
 ## Description
 
-Python file that adds polynomials over field F_2 to numpy.polynomials library.
+Python file that adds polynomials over field [Z/2Z](https://en.wikipedia.org/wiki/GF(2)) to numpy.polynomials library.
 
 ## Documentation
 
 ### Class F2Polynomial
 
-  Coefficients will be given in list or tuple format as an parameter.
+  Will inherit the Polynomial Class from numpy.polynomial.polynimal.
   
   #### Parameters:
   ```
   self
-  coef
+  coef  # tuple or list
   ```
   
   #### Methods:
@@ -49,11 +49,32 @@ Python file that adds polynomials over field F_2 to numpy.polynomials library.
 
 ### Functions
 
-#### polyAdd
+#### polyAdd:
 
-#### polyMul
+Function will take two F2Polynomial objects as its parameters. Calculates the addition of given polynomials. Returns a new instance of F2Polynomial object.
 
-#### polyDiv
+```
+polyAdd(p1, p2):
+return p1 + p2
+```
+
+#### polyMul:
+
+Function will take two F2Polynomial objects as its parameters. Calculates the product of given polynomials. Returns a new instance of F2Polynomial object.
+
+```
+polyAdd(p1, p2):
+return p1 * p2
+```
+
+#### polyDiv:
+
+Function will take two F2Polynomial objects as its parameters. Calculates the division of given polynomials. Returns a new instance of F2Polynomial object.
+
+```
+polyAdd(p1, p2):
+return p1 * p2
+```
 
 ## State
 - [x] `F2Polynomial`
