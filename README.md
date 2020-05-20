@@ -16,10 +16,10 @@ Python file that adds polynomials over field F_2 to numpy.polynomials library.
   #### Methods:
   
   _Initialization_:
-  \_\_init\_\_(self)
+  `\_\_init\_\_(self)`
   
   _String format_:
-  \_\_str\_\_(self)
+  `\_\_str\_\_(self)`
   
   _Degree of the polynom_:
   degree(self)
