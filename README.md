@@ -2,7 +2,7 @@
 
 ## Description
 
-Python file that adds polynomials over field [Z/2Z](https://en.wikipedia.org/wiki/GF(2)) to [polynomials](https://numpy.org/devdocs/reference/routines.polynomials.polynomial.html) library.
+Python file for [polynomials](https://numpy.org/devdocs/reference/routines.polynomials.polynomial.html) over field [Z/2Z](https://en.wikipedia.org/wiki/GF(2)).
 
 ## Documentation
 
