@@ -16,19 +16,21 @@ Python file that adds polynomials over field F_2 to numpy.polynomials library.
   #### Methods:
   
   _Initialization_:
-  `__init__(self)`
+  `__init__(self, coef)`
   
   _String format_:
   `__str__(self)`
   
   _Degree of the polynom_:
-  degree(self)
+  `degree(self)`
   
   #### Example:
   
-  p = F2Polynomial((1,2,3))
-  print(str(p))
+  `p = F2Polynomial((1,2,3))
+  print(str(p))`
   
-  "1 + D^2"
+  will print out:
+  
+  `1 + D^2`
 
 ### Function
