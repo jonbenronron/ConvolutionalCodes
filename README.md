@@ -26,8 +26,10 @@ Python file that adds polynomials over field F_2 to numpy.polynomials library.
   
   #### Example:
   
-  `p = F2Polynomial((1,2,3))
-  print(str(p))`
+  ```
+  p = F2Polynomial((1,2,3))
+  print(str(p))
+  ```
   
   will print out:
   
