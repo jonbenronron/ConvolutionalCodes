@@ -8,7 +8,7 @@ Python file for [polynomials](https://numpy.org/devdocs/reference/routines.polyn
 
 ### Class F2Polynomial
 
-  Will inherit the Polynomial Class from numpy.polynomial.polynimal.
+  F2Polynomial class will inherit the Polynomial Class from numpy.polynomial.polynimal.
   
   #### Parameters:
   ```
