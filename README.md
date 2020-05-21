@@ -63,7 +63,7 @@ return p1 + p2
 Function will take two F2Polynomial objects as its parameters. Calculates the product of given polynomials. Returns a new instance of a F2Polynomial object.
 
 ```
-polyAdd(p1, p2):
+polyMul(p1, p2):
 return p1 * p2
 ```
 
@@ -72,7 +72,7 @@ return p1 * p2
 Function will take two F2Polynomial objects as its parameters. Calculates the division of given polynomials. Returns a new instance of a F2Polynomial object.
 
 ```
-polyAdd(p1, p2):
+polyDiv(p1, p2):
 return p1 / p2
 ```
 
