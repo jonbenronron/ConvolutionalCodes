@@ -30,7 +30,7 @@ Python file for [polynomials](https://numpy.org/devdocs/reference/routines.polyn
   return String
   ```
   
-  _Degree of the polynom_:
+  _Degree of the polynomial_:
   ```
   degree(self):
   return int
@@ -39,19 +39,19 @@ Python file for [polynomials](https://numpy.org/devdocs/reference/routines.polyn
   #### Example:
   
   ```
-  p = F2Polynomial((1,2,3))
+  p = F2Polynomial((1, 2, 3, 4, 5, 6, 7))
   print(str(p))
   ```
   
   will print out:
   
-  `1 + D^2`
+  `1 + D^2 + D^4 + D^6`
 
 ### Functions
 
 #### polyAdd:
 
-Function will take two F2Polynomial objects as its parameters. Calculates the addition of given polynomials. Returns a new instance of F2Polynomial object.
+Function will take two F2Polynomial objects as its parameters. Calculates the addition of given polynomials. Returns a new instance of a F2Polynomial object.
 
 ```
 polyAdd(p1, p2):
@@ -60,7 +60,7 @@ return p1 + p2
 
 #### polyMul:
 
-Function will take two F2Polynomial objects as its parameters. Calculates the product of given polynomials. Returns a new instance of F2Polynomial object.
+Function will take two F2Polynomial objects as its parameters. Calculates the product of given polynomials. Returns a new instance of a F2Polynomial object.
 
 ```
 polyAdd(p1, p2):
@@ -69,7 +69,7 @@ return p1 * p2
 
 #### polyDiv:
 
-Function will take two F2Polynomial objects as its parameters. Calculates the division of given polynomials. Returns a new instance of F2Polynomial object.
+Function will take two F2Polynomial objects as its parameters. Calculates the division of given polynomials. Returns a new instance of a F2Polynomial object.
 
 ```
 polyAdd(p1, p2):
