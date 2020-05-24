@@ -2,19 +2,19 @@ import numpy as np
 from numpy.polynomial import Polynomial
 
 """
-Function for adding operation of two given polynomials
+Function for adding two given polynomials
 """
 
 
 def polyAdd(p1, p2):
     newCoef = [int(p1.coef[i]) + int(p2.coef[i])
-               for i in range(max(p1.degree(), p2.degree()))]
+               for i in range(max(len(p1.coef), len(p2.coef)))]
 
     return F2Polynomial(newCoef)
 
 
 """
-Function for multiplication operation of two given polynomials
+Function for multiplication two given polynomials
 """
 
 
@@ -22,13 +22,27 @@ def polyMul(p1, p2):
     newCoef = [0 for i in range(len(p1.coef) + len(p2.coef))]
 
     for index1, coefficient1 in enumerate(p1.coef):
-        print("index1: ", index1)
         for index2, coefficient2 in enumerate(p2.coef):
-            print("index2: ", index2)
             newCoef[index1 + index2] += (int(coefficient1) * int(coefficient2))
-            print(newCoef)
 
     return F2Polynomial(newCoef)
+
+
+"""
+Function for division of two given polynomials
+"""
+
+
+def polyDiv(p1, p2):
+    if sum(p2.coef) == 0:
+        raise ZeroDivisionError("Denominator is a zero polynomial!")
+    else:
+        return F2Polynomial((0))
+
+
+"""
+Class for polynomials over field Z/2Z
+"""
 
 
 class F2Polynomial(Polynomial):
@@ -63,6 +77,8 @@ class F2Polynomial(Polynomial):
                     nonZeroList.append("D^" + str(index))
 
         s = " + ".join(nonZeroList)
+        if len(s) == 0:
+            s = "0"
         return s
 
     """
