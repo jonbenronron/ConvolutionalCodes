@@ -77,34 +77,6 @@ Python file for [polynomials](https://numpy.org/devdocs/reference/routines.polyn
   
   `1 + D^2 + D^4 + D^6`
 
-### Functions
-
-#### polyAdd:
-
-Function will take two F2Polynomial objects as its parameters. Calculates the addition of given polynomials. Returns a new instance of a F2Polynomial object.
-
-```
-polyAdd(p1, p2):
-return p1 + p2
-```
-
-#### polyMul:
-
-Function will take two F2Polynomial objects as its parameters. Calculates the product of given polynomials. Returns a new instance of a F2Polynomial object.
-
-```
-polyMul(p1, p2):
-return p1 * p2
-```
-
-#### polyDiv:
-
-Function will take two F2Polynomial objects as its parameters. Calculates the division of given polynomials. Returns a new instance of a F2Polynomial object.
-
-```
-polyDiv(p1, p2):
-return p1 / p2
-```
 
 ## State
 - [x] `F2Polynomial`
@@ -116,6 +88,3 @@ return p1 / p2
   - [x] `__mul__`
   - [x] `__imul__`
   - [x] `__pow__`
-- [x] `polyAdd`
-- [x] `polyMul`
-- [ ] `polyDiv`
