@@ -111,6 +111,11 @@ return p1 / p2
   - [x] `__init__`
   - [x] `__str__`
   - [x] `degree`
+  - [x] `__add__`
+  - [x] `__iadd__`
+  - [x] `__mul__`
+  - [x] `__imul__`
+  - [x] `__pow__`
 - [x] `polyAdd`
 - [x] `polyMul`
 - [ ] `polyDiv`
