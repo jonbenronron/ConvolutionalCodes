@@ -36,6 +36,36 @@ Python file for [polynomials](https://numpy.org/devdocs/reference/routines.polyn
   return int
   ```
   
+  _Addition operator_ `+`:
+  ```
+  __add__(self, other):
+  return self + other
+  ```
+  
+  _Addition operator_ `+=`:
+  ```
+  __iadd__(self, other):
+  return self + other
+  ```
+  
+  _Multiplication operator_ `*`:
+  ```
+  __mul__(self, other):
+  return self * other
+  ```
+  
+  _Multiplication operator_ `*=`:
+  ```
+  __imul__(self, other):
+  return self * other
+  ```
+  
+  _Power operator_ `**`:
+  ```
+  __mul__(self, power):
+  return self ** power
+  ```
+  
   #### Example:
   
   ```
